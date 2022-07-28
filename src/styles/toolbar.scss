@@ -1,0 +1,19 @@
+@import './variables';
+
+.toolbar, .setting-bar {
+  height: $toolbar-height;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  box-shadow: $toolbar-shadow;
+}
+
+.toolbar {
+  z-index: 10;
+}
+
+.setting-bar {
+  top: $toolbar-height;
+}
