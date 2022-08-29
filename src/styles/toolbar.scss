@@ -9,7 +9,31 @@
   justify-content: space-between;
   position: absolute;
   box-shadow: $toolbar-shadow;
+  input[type="color"] {
+    cursor: pointer;
+  }
 }
+
+.setting-bar {
+  justify-content: flex-start;
+
+  .line-width {
+    padding: 0 15px;
+    input {
+      margin-left: 12px;
+    }
+  }
+
+  .stroke-color {
+    display: flex;
+    align-items: center;
+    input {
+      margin-left: 12px;
+    }
+  }
+}
+
+
 
 .toolbar {
   z-index: 10;
@@ -27,10 +51,6 @@
   .toolbar-section {
     display: flex;
     column-gap: 12px;
-  }
-
-  input[type="color"] {
-    cursor: pointer;
   }
 
   .brush {

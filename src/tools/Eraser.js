@@ -5,7 +5,6 @@ class Eraser extends Brush {
       this.ctx.strokeStyle = "white"
       this.ctx.lineTo(x, y)
       this.ctx.stroke()
-      this.ctx.lineWidth = 15
   }
 }
 
